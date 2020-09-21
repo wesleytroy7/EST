@@ -27,16 +27,16 @@ git add .    ou  git add <<nome\-arquivo>>   ->   adiciona arquivos ao seu repos
 
 
 git commit -m 'mensagem de commit' ->  salvar suas alterações e tonar rastreaveis no repositorio local, em formato de commit
-
+git commit --amend  -> é uma forma conveniente de modificar o commit mais recente
 
 
 git push -> salvar os commit em um servidor remoto 
 git pull -> baixa as alterações do repositorio remoto para o repositorio local
-git merge -> unir duas branchs ou resolver um conflito
+git merge <nomedabranch> -> unir duas branchs ou resolver um conflito
 git status -> prove informações refrentes ao projeto 
 git log  -> historico de alteraçõs do commit
 
-
+git reset --<nomedoarquivo> -> reseta alteraçoes
 
 git branch ->  cria e visualisa ramos diferente com base na master e  Mostra em qual branch estou trabalhando
 git checkout <nomedabranchExistente> >> com esse comando eu troco de branch apenas colocando o nome dela
