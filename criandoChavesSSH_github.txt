@@ -22,6 +22,4 @@ git remote -v
  testando a conexao com o git 
  ssh -T git@github.com
  Esse comando guarda a chave na memoria volatea para evitar fraudes 
- eval "SSH_AUTH_SOCK=/tmp/ssh-GebZFQbFnY67/agent.8557; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=8558; export SSH_AGENT_PID;
-echo Agent pid 8558;"
+
