@@ -1,4 +1,0 @@
-# Em Strings esempre ideal utilizar aspas simples  
-
-# # ORDEM DE PRECEDENCÊNCIA
-##   ()  **  * / // % + -
