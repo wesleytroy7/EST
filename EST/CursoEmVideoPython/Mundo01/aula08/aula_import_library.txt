@@ -1,7 +1,0 @@
-import <biblioteca>
-->   importa toda biblioteca
-
-from <funcionalidade especifica> import <biblioteca>
--> trás apenas às funcionalidades especificas da biblioteca, minimizando o consumo de memmoria
-
-
