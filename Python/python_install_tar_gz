@@ -1,0 +1,29 @@
+sudo apt-get install build-essential checkinstall
+sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev \
+    libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
+
+
+cd /opt
+sudo wget https://www.python.org/ftp/python/3.8.3/Python-3.8.3.tgz
+
+
+sudo tar xzf Python-3.8.3.tgz
+
+cd Python-3.8.3
+sudo ./configure --enable-optimizations
+sudo make altinstall
+
+
+
+
+update-alternatives --install /usr/bin/python python /usr/bin/python<versão do sistema>
+
+update-alternatives --install /usr/bin/python python /usr/bin/python<versão de downoad>
+
+update-alternatives --list python
+
+update-alternatives --config python
+
+update-alternatives --remove python /usr/bin/pytho --remove o python instalado -perigoso 
+
+

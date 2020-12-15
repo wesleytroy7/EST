@@ -1,0 +1,4 @@
+No terminal digite python3 --version 
+depois python3 -m venv venv
+depois source ./
+pip3.8 install -U pylint
