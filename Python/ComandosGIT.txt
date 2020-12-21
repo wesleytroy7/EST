@@ -82,3 +82,16 @@ info git » Obtém a Documentação do git
 man git » Obtém o Manual do git
 
 https://terminalroot.com.br/git/
+
+
+
+
+Quando se envia um arquivo via push para o github
+e o  mesmo não era para ser enviando
+
+ajuste no arquivo gitignore a extenção do mesmo
+depois realize o seguinte comando
+
+git rm --cached NOMEDOARQUIVO 
+git commit -m "arquivo excluido"
+git push origin master
