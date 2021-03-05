@@ -1,0 +1,5 @@
+Neste desafio iremos treinar o conhecimento que adquirimos na Aula de Python com Banco de dados , Crie um programa em python que utilize as seguintes operações no banco de dados (update, select, delete, insert).
+
+Para concluir este desafio:
+
+Deverá escolher um banco de dados entre SQL, e NoSLQ e realizar operações no banco de dados através de um script python utilizando entrada de usuários para registrar integrar os dados recebidos com a base de dados.
