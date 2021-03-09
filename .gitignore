@@ -1,9 +1,11 @@
 # Arquivo ignorados
+Atividade_previa01
+.docx
 .txt
 *.teste
 *.mkv
 *.pdf
 *.Matroska
 *.matroska
-
+node_modules
 #*.css
