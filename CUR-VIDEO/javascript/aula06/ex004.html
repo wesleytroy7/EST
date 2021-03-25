@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font:small-caps
+            }
+
+    </style>
+
+</head>
+<body>
+    <script>
+        let  nome = window.prompt('Nome?');
+        let salario = Number.parseInt(window.prompt('Salario'))
+        console.log(typeof(salario));
+        let salariobr =  salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+        document.write(`Olá ${nome}, seu nome tem ${nome.length}, você ganha ${salariobr}`)
+        
+        
+
+    </script>
+
+</body>
+</html>

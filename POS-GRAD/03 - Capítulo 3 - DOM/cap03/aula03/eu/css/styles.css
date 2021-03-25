@@ -1,0 +1,21 @@
+body {
+  background: #a7cfdf;
+
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    color-stop(0%, #a7cfdf)
+  );
+}
+
+.deleteButton {
+  color: aqua;
+  font-weight: bold;
+  background-color: crimson;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.clickable {
+  cursor: pointer;
+}

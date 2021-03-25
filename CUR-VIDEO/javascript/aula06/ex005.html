@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    body{
+        background: rgb(51, 43, 43);
+        color: white;
+        font: normal 18pt Arial;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    <h1>Teste</h1>
+
+    <p> aqui vai o resultado</p>
+    <p> Aprendendo <strong>JavaScript</strong></p>
+    <div id="msg">Clique aqui</div>
+    <div id="div2">Clique aqui</div>
+
+
+<script>
+    let p1 = document.getElementsByTagName('p')[0]
+    document.write('teste'+ p1.innerText)
+
+    document.write(` ,
+       teste 
+       ${p1.innerText}
+     `)
+    p1.style.color = "blue"
+
+    let div1 = document.getElementById('msg')
+    div1.style.fontSize = '50pt'
+
+    let d = document.querySelector('div.div2')
+    d.style.fontSize = '40pt'
+
+</script>
+</body>
+</html>
